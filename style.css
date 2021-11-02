@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     background-color: black;
+    height: auto;
 }
 
 a {
@@ -109,7 +110,7 @@ p {
     gap: var(--gap);
 }
     
-.guests > img {
+.guests a img {
     width:200px;
     height: auto;
     padding:20px;
@@ -156,6 +157,7 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-bottom:0px;
+    margin-top:auto;
 }
 
 .footer .text {
@@ -184,12 +186,21 @@ h5 {
     gap: 20px;
 }
 
-.dress-code-text {
-    margin-bottom: 140px;
-}
 
 .p {
     text-align: center;
     font-size: 12px;
     font-style: italic;
+    padding-bottom:150px;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height:500px;
+    width: auto;
+    gap: 20px;
+}
 }
