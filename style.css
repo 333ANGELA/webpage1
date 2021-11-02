@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    color:white;
 }
 body {
     margin: 0px;
@@ -50,31 +51,30 @@ ul {
     display:flex;
     background-color:black;
     color:white;
-    align-items: space-between;
-    margin:0px;
+    margin-left:0px;
 }
 
 .section1 {
-    width:600px;
-    padding:40px;
+    width:500px;
     height:auto;
-    display:flex;
-    margin-right:40px;
+    display:block;
+    margin-left:0px;
     font-family:sans-serif;
-    align-items:baseline;
+    flex-shrink: 1;
     justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
  
 }
 
 h1 {
     font-family:sans-serif;
-    padding:20px;  
     font-size:40px;
 }
 
 p {
     padding:10px;
-    align-items: center;
 }
 
 .section2 {
@@ -121,30 +121,36 @@ p {
     padding:100px;
     background-color:black;
     border-top:#FE64C6 6px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
 }
 
 .poem {
     display: flex;
     background-color:black;
-    align-items: left;
-    margin: auto;
+    width: auto;
+    margin-left: 150px;
+
 }
 
-.poem, h1, h3, p {
-    color:white;
-    width:auto;
-    padding-left:20px;
-    padding-right:20px;
-    margin-left:100px;
-}
 
 
 .poem > h1 {
     line-height: 70%;
+    padding-right:50px;
 }
 
+.poem-poem-wrap{
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+
 .footer {
-    background-color:#7ED956;
+    background-color:#315C2B;
     height:auto;
     display: flex;
     justify-content: space-between;
@@ -154,6 +160,7 @@ p {
 .footer .text {
     display:flex;
     height:auto;
+    width: 300px;
     margin:auto;
     align-items: center;
     justify-content: space-between;
@@ -161,7 +168,9 @@ p {
 }
 
 h5 {
-    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    font-size: 70%;
 }
   
   
