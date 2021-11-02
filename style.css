@@ -3,6 +3,7 @@
 }
 body {
     margin: 0px;
+    background-color: black;
 }
 
 a {
@@ -50,6 +51,7 @@ ul {
     background-color:black;
     color:white;
     align-items: space-between;
+    margin:0px;
 }
 
 .section1 {
@@ -79,7 +81,7 @@ p {
     display: flexbox;
     background-image:url("images/goya.jpg");
     width:1500px;
-    height:1500px;
+    height:auto;
     align-items: baseline;
     justify-content: space-between;
     
@@ -114,6 +116,52 @@ p {
     border:white 2px solid;
 }
 
-  
+.poem-wrap {
+    margin:0px;
+    padding:100px;
+    background-color:black;
+    border-top:#FE64C6 6px solid;
+}
+
+.poem {
+    display: flex;
+    background-color:black;
+    align-items: left;
+    margin: auto;
+}
+
+.poem, h1, h3, p {
+    color:white;
+    width:auto;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:100px;
+}
+
+
+.poem > h1 {
+    line-height: 70%;
+}
+
+.footer {
+    background-color:#7ED956;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .text {
+    display:flex;
+    height:auto;
+    margin:auto;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+
+h5 {
+    align-items: center;
+}
   
   
