@@ -1,0 +1,119 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+}
+
+a {
+    color:#FE64C6;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#7ED956;
+}
+
+.logo
+img {
+    width:400px;
+    height:auto;
+    background:#7ED956;
+}
+
+
+.header {
+    background-color:#7ED956;
+    height:85px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.header
+ul {
+    background:#7ED956;
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    gap:25px;
+    margin-right:50px;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:white;
+    font-size: 20px;
+
+}
+
+
+.intro {
+    display:flex;
+    background-color:black;
+    color:white;
+    align-items: space-between;
+}
+
+.section1 {
+    width:600px;
+    padding:40px;
+    height:auto;
+    display:flex;
+    margin-right:40px;
+    font-family:sans-serif;
+    align-items:baseline;
+    justify-content: space-between;
+ 
+}
+
+h1 {
+    font-family:sans-serif;
+    padding:20px;  
+    font-size:40px;
+}
+
+p {
+    padding:10px;
+    align-items: center;
+}
+
+.section2 {
+    display: flexbox;
+    background-image:url("images/goya.jpg");
+    width:1500px;
+    height:1500px;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+
+.guests {
+    /*width:700px;
+    display: grid;
+    --gap:20px;
+    --num-cols:3;
+    --row-width:300px;
+    padding:12px;*/
+
+    --gap: 16px;
+    --num-cols: 4;
+    --row-width: 200px;
+  
+    box-sizing: border-box;
+    padding: var(--gap);
+    grid-row: span 2;
+  
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+    
+.guests > img {
+    width:200px;
+    height: auto;
+    padding:20px;
+    border:white 2px solid;
+}
+
+  
+  
+  
